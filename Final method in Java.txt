@@ -1,0 +1,19 @@
+public class Main {
+    public static void main(String args[]){
+       Name obj = new Name();
+       obj.run();
+    }
+}
+
+
+class Name{
+    
+ final void run(){
+        System.out.println("running");
+    }
+class abc extends Name  {
+    void run(){
+        System.out.println("100 km/hr running");
+    }
+}
+}
